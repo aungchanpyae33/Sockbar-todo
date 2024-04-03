@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Metamorphous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Jua&family=Metamorphous&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-[Metamorphous] p-2 md:p-10 bg-bodyColor;
+}
+.button {
+  @apply border-2 bg-blue-200 shadow-md rounded-sm p-2;
+}
+.hide-button {
+  @apply hidden;
+}
